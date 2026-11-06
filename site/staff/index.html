@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ITI Buddy — Staff portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/staff/staff.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">🎓</span><div><h1>ITI Buddy</h1><p>Staff portal</p></div></div>
+  <div id="who" class="who" hidden><span id="whoEmail"></span><span id="whoRoles"></span><button id="logout" type="button" class="ghost">Log out</button></div>
+</header>
+
+<main>
+  <p id="flash" class="flash" hidden></p>
+
+  <!-- Login -->
+  <section id="vLogin" class="card narrow" hidden>
+    <h2>Staff login</h2>
+    <form id="fLogin">
+      <label>Email <input type="email" name="email" required autocomplete="username"></label>
+      <label>Password <input type="password" name="password" required autocomplete="current-password"></label>
+      <button type="submit">Log in</button>
+    </form>
+    <button type="button" id="toForgot" class="link">Forgot password?</button>
+    <p class="muted">Accounts are created by invitation only. Ask your ITI Buddy admin for an invite.</p>
+  </section>
+
+  <!-- Forgot -->
+  <section id="vForgot" class="card narrow" hidden>
+    <h2>Reset password</h2>
+    <form id="fForgot">
+      <label>Email <input type="email" name="email" required></label>
+      <button type="submit">Send reset link</button>
+    </form>
+    <button type="button" class="link" data-show="vLogin">Back to login</button>
+  </section>
+
+  <!-- Set password (invite or recovery) -->
+  <section id="vSetPw" class="card narrow" hidden>
+    <h2 id="setPwTitle">Set your password</h2>
+    <form id="fSetPw">
+      <label>New password <input type="password" name="password" required minlength="10" autocomplete="new-password"></label>
+      <p class="muted">At least 10 characters.</p>
+      <button type="submit">Save password</button>
+    </form>
+  </section>
+
+  <!-- No role -->
+  <section id="vNoRole" class="card narrow" hidden>
+    <h2>Waiting for access</h2>
+    <p>You are logged in, but your account has no staff role yet. Ask an admin to give you one of: <b>admin</b>, <b>approver</b>, <b>editor</b> or <b>viewer</b>. Then log out and log in again.</p>
+  </section>
+
+  <!-- Dashboard -->
+  <section id="vDash" hidden>
+    <nav class="tabs">
+      <button type="button" data-tab="tPassages" aria-selected="true">Passages</button>
+      <button type="button" data-tab="tLogs" aria-selected="false">Chat log</button>
+      <button type="button" data-tab="tHelp" aria-selected="false">Roles</button>
+    </nav>
+
+    <div id="tPassages" class="tab">
+      <div class="bar">
+        <div class="filters" id="statusFilter">
+          <button type="button" data-status="pending" class="pill">Pending</button>
+          <button type="button" data-status="approved" class="pill">Live</button>
+          <button type="button" data-status="archived" class="pill">Archived</button>
+          <button type="button" data-status="" class="pill">All</button>
+        </div>
+        <button type="button" id="newBtn" class="primary" hidden>+ New passage</button>
+      </div>
+      <form id="fEdit" class="card" hidden>
+        <h3 id="editTitle">New passage</h3>
+        <input type="hidden" name="id">
+        <div class="grid">
+          <label>Category
+            <select name="category">
+              <option>Admission</option><option>Seats</option><option>Exam</option><option>Session</option>
+              <option>Scholarship</option><option>Placement</option><option>Support</option><option>Other</option>
+            </select></label>
+          <label>Source <input name="source" maxlength="250" placeholder="Notice name, date or website"></label>
+          <label>Title (English) <input name="title" maxlength="200" required></label>
+          <label>Title (Hindi) <input name="titleHi" maxlength="200"></label>
+          <label class="wide">Answer (English) <textarea name="text" rows="4" maxlength="5000" required></textarea></label>
+          <label class="wide">Answer (Hindi) <textarea name="textHi" rows="4" maxlength="5000"></textarea></label>
+        </div>
+        <p id="editNote" class="muted"></p>
+        <div class="row"><button type="submit" class="primary">Save</button><button type="button" id="cancelEdit" class="ghost">Cancel</button></div>
+      </form>
+      <div id="plist" class="list"></div>
+    </div>
+
+    <div id="tLogs" class="tab" hidden>
+      <p id="logStats" class="stats"></p>
+      <div class="filters"><label class="chk"><input type="checkbox" id="onlyUnanswered"> Only unanswered</label></div>
+      <div class="tablewrap"><table><thead><tr><th>When</th><th>Question</th><th>Lang</th><th>Answer given</th></tr></thead><tbody id="logRows"></tbody></table></div>
+    </div>
+
+    <div id="tHelp" class="tab card" hidden>
+      <h3>Staff roles</h3>
+      <table class="roles">
+        <tr><th>admin</th><td>Everything: add, edit, approve, archive and delete passages; read the chat log.</td></tr>
+        <tr><th>approver</th><td>Add and edit passages (they go live immediately), approve or archive pending passages, read the chat log.</td></tr>
+        <tr><th>editor</th><td>Add and edit passages. Their changes are saved as <b>Pending</b> and only reach trainees after an approver approves them.</td></tr>
+        <tr><th>viewer</th><td>Read-only: see all passages and the chat log.</td></tr>
+      </table>
+      <p class="muted">Users are invited and given roles by the site owner in the Netlify dashboard (Identity → Invite users, then open the user and set Roles).</p>
+    </div>
+  </section>
+</main>
+<script type="module" src="/staff/staff.js"></script>
+</body>
+</html>

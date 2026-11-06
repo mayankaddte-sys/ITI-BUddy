@@ -1,0 +1,12 @@
+# ITI Buddy public page (static). The Django files in the repo root are the
+# separate staff/admin backend and are not deployed by Netlify.
+[build]
+  publish = "site"
+  # Bundles the staff portal script (src/staff.ts -> site/staff/staff.js)
+  command = "npm run build"
+
+[[headers]]
+  for = "/staff/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex"
