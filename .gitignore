@@ -1,0 +1,5 @@
+node_modules/
+site/staff/staff.js
+
+# Local Netlify folder
+.netlify

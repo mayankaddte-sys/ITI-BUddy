@@ -1,0 +1,18 @@
+{
+  "name": "iti-buddy",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "^2.0.2",
+    "@netlify/functions": "^6.1.0",
+    "@netlify/identity": "^2.0.0",
+    "drizzle-orm": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^1.0.0-beta.22",
+    "esbuild": "^0.28.2"
+  },
+  "scripts": {
+    "build": "esbuild src/staff.ts --bundle --format=esm --minify --target=es2020 --outfile=site/staff/staff.js"
+  }
+}
