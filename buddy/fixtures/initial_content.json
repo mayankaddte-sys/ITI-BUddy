@@ -1,0 +1,366 @@
+[
+ {
+  "model": "buddy.passage",
+  "pk": 1,
+  "fields": {
+   "category": "Admission",
+   "title_en": "Admission process",
+   "title_hi": "प्रवेश प्रक्रिया",
+   "text_en": "Admission to government and private ITIs for session 2026-27 is through the state-level ITI admission process run by SCVT UP, Lucknow. Seats are filled on merit based on marks in the qualifying exam.",
+   "text_hi": "सत्र 2026-27 में राजकीय एवं निजी आईटीआई में प्रवेश एससीवीटी यूपी, लखनऊ द्वारा संचालित राज्य स्तरीय आईटीआई प्रवेश प्रक्रिया से होता है। सीटें अर्हकारी परीक्षा के प्राप्तांकों की मेरिट के आधार पर भरी जाती हैं।",
+   "source": "UP ITI admission booklet 2026-27, p. 11",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 2,
+  "fields": {
+   "category": "Admission",
+   "title_en": "How to apply online",
+   "title_hi": "ऑनलाइन आवेदन कैसे करें",
+   "text_en": "Open http://www.scvtup.in and click the link Online Submission of Application for Admission for Session 2026-27 for Government/Private ITI. Enter your name, father name, mother name, category and mobile number, tap Send OTP, then enter the OTP and tap Verify & Proceed. Enter your Aadhaar number, which is verified online. The fee is paid online by debit card, credit card, net banking or UPI.",
+   "text_hi": "http://www.scvtup.in खोलें और Online Submission of Application for Admission for Session 2026-27 for Government/Private ITI लिंक पर क्लिक करें। अपना नाम, पिता का नाम, माता का नाम, श्रेणी और मोबाइल नंबर भरें, Send OTP दबाएँ, फिर OTP डालकर Verify & Proceed दबाएँ। अपना आधार नंबर दर्ज करें, जिसका सत्यापन ऑनलाइन होता है। शुल्क का भुगतान ऑनलाइन डेबिट कार्ड, क्रेडिट कार्ड, नेट बैंकिंग या यूपीआई से किया जाता है।",
+   "source": "UP ITI admission booklet 2026-27, p. 12",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 3,
+  "fields": {
+   "category": "Admission",
+   "title_en": "Age and eligibility",
+   "title_hi": "आयु और पात्रता",
+   "text_en": "The minimum age is 14 years as on 01 August 2026. Each trade needs either Class 8 pass or Class 10 pass. Trade codes and qualification are listed in the booklet annexures 02 to 06 (Class 10 trades) and 07 to 10 (Class 8 trades). The seat tables show 8th Pass or 10th Pass against each trade.",
+   "text_hi": "न्यूनतम आयु 01 अगस्त 2026 को 14 वर्ष होनी चाहिए। प्रत्येक ट्रेड के लिए कक्षा 8 या कक्षा 10 उत्तीर्ण होना आवश्यक है। ट्रेड कोड और योग्यता पुस्तिका के परिशिष्ट 02 से 06 (कक्षा 10 के ट्रेड) और 07 से 10 (कक्षा 8 के ट्रेड) में दी गई है। सीट तालिकाओं में हर ट्रेड के आगे 8th Pass या 10th Pass लिखा है।",
+   "source": "UP ITI admission booklet 2026-27, pp. 14, 45-61",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 4,
+  "fields": {
+   "category": "Seats",
+   "title_en": "Total seats and ITIs in UP",
+   "title_hi": "उत्तर प्रदेश में कुल आईटीआई और सीटें",
+   "text_en": "Session 2026 has 1,53,643 seats in government ITIs. There are 321 government ITIs, of which 12 are exclusively for women, 47 have women branches, 43 are in minority-concentrated areas and 84 run under the Scheduled Caste Sub Plan. 86 trades are offered. PPP-model institutes: 42 institutes with 13,138 seats. Private ITIs: over 2,900 institutes with 2,95,668 seats.",
+   "text_hi": "सत्र 2026 में राजकीय आईटीआई में कुल 1,53,643 सीटें हैं। प्रदेश में 321 राजकीय आईटीआई हैं, जिनमें 12 केवल महिलाओं के लिए हैं, 47 में महिला शाखाएँ हैं, 43 अल्पसंख्यक बहुल क्षेत्रों में हैं और 84 अनुसूचित जाति उप योजना के अंतर्गत संचालित हैं। कुल 86 ट्रेड उपलब्ध हैं। पीपीपी मॉडल के 42 संस्थानों में 13,138 सीटें हैं। निजी आईटीआई 2,900 से अधिक हैं, जिनमें 2,95,668 सीटें हैं।",
+   "source": "UP ITI admission booklet 2026-27, p. 11",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 5,
+  "fields": {
+   "category": "Seats",
+   "title_en": "What the seat numbers mean",
+   "title_hi": "सीट संख्या का अर्थ",
+   "text_en": "Seat figures in this bot are approved seats per trade and institute for session August 2026, taken from annexures 13 to 16. They are not live vacancy. Remaining seats after each counselling round are published on the admission portal.",
+   "text_hi": "इस बॉट में दी गई सीटें अगस्त 2026 सत्र के लिए प्रत्येक ट्रेड और संस्थान की स्वीकृत सीटें हैं, जो परिशिष्ट 13 से 16 से ली गई हैं। ये वर्तमान रिक्त सीटें नहीं हैं। हर काउंसलिंग राउंड के बाद शेष सीटें प्रवेश पोर्टल पर प्रकाशित होती हैं।",
+   "source": "UP ITI admission booklet 2026-27, annexures 13-16",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 6,
+  "fields": {
+   "category": "Session",
+   "title_en": "Session start",
+   "title_hi": "सत्र प्रारंभ",
+   "text_en": "Admission is for the training session starting August 2026 (session 2026-27).",
+   "text_hi": "प्रवेश अगस्त 2026 से शुरू होने वाले प्रशिक्षण सत्र (सत्र 2026-27) के लिए है।",
+   "source": "UP ITI admission booklet 2026-27, annexures 13-16",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 7,
+  "fields": {
+   "category": "Admission",
+   "title_en": "Important admission dates",
+   "title_hi": "प्रवेश की महत्वपूर्ण तिथियाँ",
+   "text_en": "[Sample] Last date to apply: DD Month YYYY. Merit list: DD Month YYYY. Counselling round 1: DD Month YYYY. Replace with dates from the current admission notice, as this booklet text does not list them.",
+   "text_hi": "[नमूना] आवेदन की अंतिम तिथि: DD माह YYYY। मेरिट सूची: DD माह YYYY। काउंसलिंग राउंड 1: DD माह YYYY। इन्हें वर्तमान प्रवेश सूचना की तिथियों से बदलें, क्योंकि इस पुस्तिका के पाठ में ये तिथियाँ नहीं हैं।",
+   "source": "[Sample] Admission schedule",
+   "status": "draft",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 8,
+  "fields": {
+   "category": "Exam",
+   "title_en": "All India Trade Test",
+   "title_hi": "अखिल भारतीय व्यापार परीक्षा",
+   "text_en": "[Sample] The All India Trade Test (AITT) is conducted by NCVT and DGT. Two-year trades have four semester exams, one-year trades have two. Replace with the current NCVT exam scheme.",
+   "text_hi": "[नमूना] अखिल भारतीय व्यापार परीक्षा (AITT) एनसीवीटी और डीजीटी द्वारा आयोजित की जाती है। दो वर्षीय ट्रेडों में चार सेमेस्टर परीक्षाएँ और एक वर्षीय ट्रेडों में दो परीक्षाएँ होती हैं। इसे वर्तमान एनसीवीटी परीक्षा योजना से बदलें।",
+   "source": "[Sample] NCVT exam scheme",
+   "status": "draft",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 9,
+  "fields": {
+   "category": "Exam",
+   "title_en": "Exam dates and admit card",
+   "title_hi": "परीक्षा तिथि और प्रवेश पत्र",
+   "text_en": "[Sample] Semester exam window: Month YYYY. Admit cards are released through your ITI about one to two weeks before the exam. Replace with the current exam notice.",
+   "text_hi": "[नमूना] सेमेस्टर परीक्षा की अवधि: माह YYYY। प्रवेश पत्र परीक्षा से लगभग एक से दो सप्ताह पहले आपके आईटीआई के माध्यम से जारी होते हैं। इसे वर्तमान परीक्षा सूचना से बदलें।",
+   "source": "[Sample] Exam notice",
+   "status": "draft",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 10,
+  "fields": {
+   "category": "Support",
+   "title_en": "Contact and grievance",
+   "title_hi": "संपर्क और शिकायत",
+   "text_en": "[Sample] Contact your ITI principal first, then the district nodal principal or your division Joint Director. Helpline: 0000-000-0000.",
+   "text_hi": "[नमूना] पहले अपने आईटीआई के प्रधानाचार्य से संपर्क करें, फिर जनपद के नोडल प्रधानाचार्य या अपने मंडल के संयुक्त निदेशक से। हेल्पलाइन: 0000-000-0000।",
+   "source": "[Sample] Helpdesk",
+   "status": "draft",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 11,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "Scholarship for ITI trainees",
+   "title_hi": "छात्रवृत्ति: आईटीआई प्रशिक्षणार्थियों के लिए",
+   "text_en": "ITI trainees in Uttar Pradesh can apply for the UP Scholarship and Fee Reimbursement scheme run by the Social Welfare Department. ITI courses come under Post-Matric Other Than Intermediate, also called Dashmottar. Applications are online at scholarship.up.gov.in. Eligible categories are General, OBC, SC, ST and Minority. There is no application fee. The money is paid by direct bank transfer.",
+   "text_hi": "उत्तर प्रदेश के आईटीआई प्रशिक्षणार्थी समाज कल्याण विभाग द्वारा संचालित यूपी छात्रवृत्ति एवं शुल्क प्रतिपूर्ति योजना के लिए आवेदन कर सकते हैं। आईटीआई पाठ्यक्रम दशमोत्तर (पोस्ट मैट्रिक अदर दैन इंटरमीडिएट) श्रेणी में आते हैं। आवेदन ऑनलाइन scholarship.up.gov.in पर होता है। पात्र श्रेणियाँ हैं: सामान्य, ओबीसी, एससी, एसटी और अल्पसंख्यक। आवेदन शुल्क नहीं है। राशि सीधे बैंक खाते में (डीबीटी) भेजी जाती है।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 12,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "Scholarship eligibility",
+   "title_hi": "छात्रवृत्ति: कौन आवेदन कर सकता है",
+   "text_en": "You generally need to be a UP domicile, studying in a recognised ITI course, and within the family income limit. Reported limits for post-matric: General, OBC and Minority up to Rs 2 lakh a year; SC and ST up to Rs 2.5 lakh a year. Your Aadhaar details must match your records. Check the final rules on the portal.",
+   "text_hi": "सामान्यतः आप उत्तर प्रदेश के मूल निवासी हों, मान्यता प्राप्त आईटीआई पाठ्यक्रम में पढ़ रहे हों और पारिवारिक आय सीमा के भीतर हों। बताई गई सीमा: सामान्य, ओबीसी और अल्पसंख्यक के लिए प्रति वर्ष 2 लाख रुपये तक; एससी और एसटी के लिए 2.5 लाख रुपये तक। आपका आधार विवरण आपके अभिलेखों से मेल खाना चाहिए। अंतिम नियम पोर्टल पर देखें।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 13,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "How to apply for scholarship",
+   "title_hi": "छात्रवृत्ति के लिए आवेदन कैसे करें",
+   "text_en": "1. Go to scholarship.up.gov.in and complete One Time Registration (OTR).\n2. Log in and choose Post-Matric Other Than Intermediate (Dashmottar), fresh or renewal.\n3. Enter your course, ITI, admission or counselling number, fee details, income and category.\n4. Upload documents and submit the form.\n5. Take the final printout and give the hard copy with attachments to your ITI.\n6. Your ITI verifies the form, then the district committee and NIC scrutinise it.",
+   "text_hi": "1. scholarship.up.gov.in पर जाएँ और वन टाइम रजिस्ट्रेशन (OTR) पूरा करें।\n2. लॉगिन करके दशमोत्तर (Post-Matric Other Than Intermediate) चुनें, नया (Fresh) या नवीनीकरण (Renewal)।\n3. अपना पाठ्यक्रम, आईटीआई, प्रवेश या काउंसलिंग नंबर, शुल्क विवरण, आय और श्रेणी भरें।\n4. दस्तावेज़ अपलोड करके फॉर्म जमा करें।\n5. अंतिम प्रिंटआउट निकालें और संलग्नकों सहित हार्ड कॉपी अपने आईटीआई में जमा करें।\n6. आपका आईटीआई फॉर्म सत्यापित करता है, फिर जिला समिति और एनआईसी जाँच करते हैं।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 14,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "Scholarship dates",
+   "title_hi": "छात्रवृत्ति की तिथियाँ",
+   "text_en": "Reported dates for session 2026-27 (Dashmottar): fresh applications 15 September to 31 October 2026. Renewal applications 15 September to 15 October 2026. Fresh applicants: final printout by 2 November and hard copy to the ITI by 4 November 2026. Funds for renewal cases are planned for 1 to 10 December 2026. Dates can change, so check scholarship.up.gov.in for any extension or correction window.",
+   "text_hi": "सत्र 2026-27 (दशमोत्तर) की बताई गई तिथियाँ: नए आवेदन 15 सितंबर से 31 अक्टूबर 2026। नवीनीकरण आवेदन 15 सितंबर से 15 अक्टूबर 2026। नए आवेदकों के लिए अंतिम प्रिंटआउट 2 नवंबर तक और आईटीआई में हार्ड कॉपी 4 नवंबर 2026 तक। नवीनीकरण मामलों की धनराशि 1 से 10 दिसंबर 2026 के बीच भेजने की योजना है। तिथियाँ बदल सकती हैं, इसलिए विस्तार या सुधार की अवधि के लिए scholarship.up.gov.in देखें।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 15,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "Scholarship documents",
+   "title_hi": "छात्रवृत्ति के दस्तावेज़",
+   "text_en": "Typical documents: Aadhaar, domicile certificate, income certificate, caste certificate if applicable, previous marksheet, admission and fee receipt from your ITI, bank passbook and a passport photo. The exact list is shown on the portal and by your ITI, so follow that list.",
+   "text_hi": "सामान्य दस्तावेज़: आधार, मूल निवास प्रमाण पत्र, आय प्रमाण पत्र, जाति प्रमाण पत्र (यदि लागू हो), पिछली अंकतालिका, आपके आईटीआई की प्रवेश एवं शुल्क रसीद, बैंक पासबुक और पासपोर्ट फोटो। सटीक सूची पोर्टल और आपके आईटीआई द्वारा बताई जाती है, उसी का पालन करें।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 16,
+  "fields": {
+   "category": "Scholarship",
+   "title_en": "Scholarship status and payment",
+   "title_hi": "छात्रवृत्ति की स्थिति और भुगतान",
+   "text_en": "Check your application status by logging in at scholarship.up.gov.in. After verification by the ITI, the district committee and NIC, the money is sent by direct bank transfer (DBT). If your form is returned or rejected, correct it as shown on the portal, or ask your ITI principal or the district social welfare office.",
+   "text_hi": "scholarship.up.gov.in पर लॉगिन करके अपने आवेदन की स्थिति देखें। आईटीआई, जिला समिति और एनआईसी के सत्यापन के बाद धनराशि सीधे बैंक खाते (डीबीटी) में भेजी जाती है। यदि आपका फॉर्म वापस या अस्वीकृत हो जाए, तो पोर्टल के निर्देश के अनुसार सुधारें, या अपने आईटीआई के प्रधानाचार्य या जिला समाज कल्याण कार्यालय से पूछें।",
+   "source": "UP Scholarship portal and news reports (verify on scholarship.up.gov.in)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 17,
+  "fields": {
+   "category": "Admission",
+   "title_en": "Fees and charges",
+   "title_hi": "शुल्क और प्रभार",
+   "text_en": "Fees and charges (as per the admission booklet):\n• Online application fee: General and OBC Rs 300, SC and ST Rs 250, women of all categories Rs 100.\n• At admission in the ITI: caution money Rs 300, and training fee Rs 40 per month for all trainees except SC and ST.\n• Private ITIs: the booklet quotes a standard fee of Rs 18,000 a year for engineering trades and Rs 15,400 a year for non-engineering trades, from a 2018 order covering 2018-19 to 2020-21. Check the current fee with the ITI.\n• Seat Acceptance Fee Rs 1,000: in private ITI upgrade rounds, if you choose Float you pay this online to SCVT UP. It is moved to your new ITI if you are upgraded.\n• PPP ITIs: seats carry either the government fee or the private fee, as shown in annexure 15.",
+   "text_hi": "शुल्क और प्रभार (प्रवेश पुस्तिका के अनुसार):\n• ऑनलाइन आवेदन शुल्क: सामान्य और ओबीसी 300 रुपये, एससी और एसटी 250 रुपये, सभी वर्गों की महिलाएँ 100 रुपये।\n• आईटीआई में प्रवेश के समय: कॉशन मनी 300 रुपये, और प्रशिक्षण शुल्क 40 रुपये प्रति माह, एससी और एसटी को छोड़कर सभी प्रशिक्षणार्थियों से।\n• निजी आईटीआई: पुस्तिका में 2018 के शासनादेश (सत्र 2018-19 से 2020-21) के अनुसार मानक शुल्क इंजीनियरिंग ट्रेड में 18,000 रुपये और नॉन-इंजीनियरिंग ट्रेड में 15,400 रुपये प्रति वर्ष बताया गया है। वर्तमान शुल्क अपने आईटीआई से पूछें।\n• सीट एक्सेप्टेंस फीस 1,000 रुपये: निजी आईटीआई की उच्चीकरण प्रक्रिया में यदि आप Float चुनते हैं तो यह राशि एससीवीटी यूपी को ऑनलाइन जमा करनी होती है। उच्चीकरण होने पर यह आपके नए आईटीआई को स्थानांतरित कर दी जाती है।\n• पीपीपी आईटीआई: सीटें सरकारी शुल्क या निजी शुल्क वाली होती हैं, जो परिशिष्ट 15 में दिखाई गई हैं।",
+   "source": "UP ITI admission booklet 2026-27 (fee instructions)",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 18,
+  "fields": {
+   "category": "Placement",
+   "title_en": "Placement and apprenticeship melas",
+   "title_hi": "प्लेसमेंट और अप्रेंटिसशिप मेले",
+   "text_en": "Two kinds of melas are held at or around government ITIs. District rozgar (placement) melas are run under UP Rozgar Mission by the District Employment Office, the ITI and UP Skill Development Mission, with 15 to 40 companies interviewing on the spot. The Pradhan Mantri National Apprenticeship Mela (PMNAM) is run by the Ministry of Skill Development and brings employers who offer apprenticeships to ITI pass-outs. District melas are free to attend.",
+   "text_hi": "सरकारी आईटीआई में या उसके आसपास दो प्रकार के मेले लगते हैं। जिला रोजगार (प्लेसमेंट) मेले उत्तर प्रदेश रोजगार मिशन के तहत जिला सेवायोजन कार्यालय, आईटीआई और उत्तर प्रदेश कौशल विकास मिशन द्वारा लगाए जाते हैं, जिनमें 15 से 40 कंपनियाँ मौके पर साक्षात्कार लेती हैं। प्रधानमंत्री राष्ट्रीय अप्रेंटिसशिप मेला (PMNAM) कौशल विकास मंत्रालय द्वारा आयोजित होता है, जिसमें अप्रेंटिसशिप देने वाले नियोक्ता आईटीआई उत्तीर्ण युवाओं से मिलते हैं। जिला मेलों में भाग लेना निःशुल्क है।",
+   "source": "News reports (Amar Ujala and others, 1-3 Nov 2026); confirm with your District Employment Office",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 19,
+  "fields": {
+   "category": "Placement",
+   "title_en": "Placement mela dates",
+   "title_hi": "मेले की तिथियाँ",
+   "text_en": "Reported melas in November 2026:\n• 3 Nov: district mela at the ITI campus, Fatehpur, from 10 am (40+ companies).\n• 3 Nov: Government ITI Salarpur, Badaun, and 4 Nov: BIMT campus, Badaun (15+ companies).\n• 4 Nov: Government ITI, Shahjahanpur, from 10 am (25 to 30 companies).\n• 12 Nov: one-day mela at IIMT University, Ganganagar, Meerut (about 150 companies expected).\nPMNAM is held on different dates in different districts, so check the Apprenticeship India portal or your ITI notice. Some of these dates may already be over. Ask your ITI principal or District Employment Office for the next mela in your district.",
+   "text_hi": "नवंबर 2026 में बताए गए मेले:\n• 3 नवंबर: आईटीआई परिसर फतेहपुर में जिला स्तरीय मेला, सुबह 10 बजे से (40 से अधिक कंपनियाँ)।\n• 3 नवंबर: राजकीय आईटीआई सालारपुर, बदायूं, और 4 नवंबर: बीआईएमटी परिसर, बदायूं (15 से अधिक कंपनियाँ)।\n• 4 नवंबर: राजकीय आईटीआई शाहजहांपुर, सुबह 10 बजे से (25 से 30 कंपनियाँ)।\n• 12 नवंबर: आईआईएमटी विश्वविद्यालय, गंगानगर, मेरठ में एक दिवसीय मेला (लगभग 150 कंपनियाँ अपेक्षित)।\nPMNAM अलग-अलग जिलों में अलग-अलग तिथियों पर होता है, इसलिए अप्रेंटिसशिप इंडिया पोर्टल या अपने आईटीआई की सूचना देखें। इनमें से कुछ तिथियाँ बीत चुकी हो सकती हैं। अपने जिले के अगले मेले के लिए आईटीआई के प्रधानाचार्य या जिला सेवायोजन कार्यालय से पूछें।",
+   "source": "News reports (Amar Ujala and others, 1-3 Nov 2026); confirm with your District Employment Office",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 20,
+  "fields": {
+   "category": "Placement",
+   "title_en": "Who can attend melas",
+   "title_hi": "मेले में कौन भाग ले सकता है",
+   "text_en": "District melas: candidates who passed High School, Intermediate, ITI, diploma, graduation or post-graduation, aged 18 to 40 (as reported for Badaun). PMNAM: Class 5 to 12 pass, skill training certificate holders, ITI and diploma holders, and graduates. Rozgar mela candidates must be registered on the state employment portal.",
+   "text_hi": "जिला मेले: हाईस्कूल, इंटरमीडिएट, आईटीआई, डिप्लोमा, स्नातक या परास्नातक उत्तीर्ण, 18 से 40 वर्ष के अभ्यर्थी (बदायूं के लिए बताए अनुसार)। PMNAM: कक्षा 5 से 12 उत्तीर्ण, कौशल प्रशिक्षण प्रमाणपत्र धारक, आईटीआई और डिप्लोमा धारक तथा स्नातक। रोजगार मेले के अभ्यर्थियों का राज्य के रोजगार पोर्टल पर पंजीकरण होना आवश्यक है।",
+   "source": "News reports (Amar Ujala and others, 1-3 Nov 2026); confirm with your District Employment Office",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.passage",
+  "pk": 21,
+  "fields": {
+   "category": "Placement",
+   "title_en": "How to register for melas",
+   "title_hi": "मेले के लिए पंजीकरण कैसे करें",
+   "text_en": "1. Register on the UP employment portal (Rozgar Sangam / Sewayojan) before the mela. For apprenticeships, create your profile on the Apprenticeship India portal.\n2. Reach the venue by 10 am.\n3. Typical items to carry: educational and ITI certificates or marksheets, Aadhaar, and photocopies of your biodata with passport photos.\n4. Companies interview and select on the spot. Ask your District Employment Office for details.",
+   "text_hi": "1. मेले से पहले उत्तर प्रदेश के रोजगार पोर्टल (रोजगार संगम / सेवायोजन) पर पंजीकरण करें। अप्रेंटिसशिप के लिए अप्रेंटिसशिप इंडिया पोर्टल पर अपनी प्रोफ़ाइल बनाएँ।\n2. सुबह 10 बजे तक स्थल पर पहुँचें।\n3. सामान्यतः साथ ले जाएँ: शैक्षिक और आईटीआई प्रमाणपत्र या अंकतालिका, आधार, और बायोडाटा की फोटोकॉपी व पासपोर्ट फोटो।\n4. कंपनियाँ मौके पर साक्षात्कार लेकर चयन करती हैं। विवरण के लिए जिला सेवायोजन कार्यालय से पूछें।",
+   "source": "News reports (Amar Ujala and others, 1-3 Nov 2026); confirm with your District Employment Office",
+   "status": "pending",
+   "needs_hindi_review": true
+  }
+ },
+ {
+  "model": "buddy.event",
+  "pk": 1,
+  "fields": {
+   "kind": "placement",
+   "title": "District-level rozgar mela, ITI campus, Fatehpur",
+   "date": "2026-11-03",
+   "time_text": "10 am onwards",
+   "venue": "ITI campus, Fatehpur",
+   "district": "Fatehpur",
+   "details": "40+ private companies. Register on the employment portal.",
+   "status": "pending"
+  }
+ },
+ {
+  "model": "buddy.event",
+  "pk": 2,
+  "fields": {
+   "kind": "placement",
+   "title": "Rozgar mela, Government ITI Salarpur",
+   "date": "2026-11-03",
+   "time_text": "10 am onwards",
+   "venue": "Government ITI Salarpur, Budaun",
+   "district": "Budaun",
+   "details": "15+ companies. Open to ITI, diploma and graduates aged 18 to 40.",
+   "status": "pending"
+  }
+ },
+ {
+  "model": "buddy.event",
+  "pk": 3,
+  "fields": {
+   "kind": "placement",
+   "title": "Rozgar mela, BIMT campus",
+   "date": "2026-11-04",
+   "time_text": "10 am onwards",
+   "venue": "BIMT campus, Budaun",
+   "district": "Budaun",
+   "details": "Second day of the two-day mela.",
+   "status": "pending"
+  }
+ },
+ {
+  "model": "buddy.event",
+  "pk": 4,
+  "fields": {
+   "kind": "placement",
+   "title": "Rozgar mela, Government ITI Shahjahanpur",
+   "date": "2026-11-04",
+   "time_text": "10 am onwards",
+   "venue": "Government ITI, Shahjahanpur",
+   "district": "Shahjahanpur",
+   "details": "25 to 30 companies.",
+   "status": "pending"
+  }
+ },
+ {
+  "model": "buddy.event",
+  "pk": 5,
+  "fields": {
+   "kind": "placement",
+   "title": "One-day rozgar mela, IIMT University",
+   "date": "2026-11-12",
+   "time_text": "",
+   "venue": "IIMT University, Ganganagar, Meerut",
+   "district": "Meerut",
+   "details": "About 150 companies expected.",
+   "status": "pending"
+  }
+ }
+]
